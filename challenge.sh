@@ -5,8 +5,7 @@ shift=sys.argv[1]
 
 #65-90 
 #read message
-message= input("input message: ")
-#message= sys.stdin
+message= sys.stdin
 message= message.upper()
 count=0
 count_lin=0
